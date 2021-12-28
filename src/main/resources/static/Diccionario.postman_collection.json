@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "a8f8c92c-f5da-416f-a2d0-975f51c87c46",
+		"name": "Diccionario",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/diccionario/anagrama/list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"palabra\" : \"I AM LORD VOLDEMORT\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/diccionario/anagrama/list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"diccionario",
+						"anagrama",
+						"list"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
